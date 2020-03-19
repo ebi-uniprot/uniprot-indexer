@@ -1,14 +1,13 @@
 package org.uniprot.store.datastore.voldemort;
 
-import java.util.*;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import voldemort.store.StorageEngine;
 import voldemort.store.Store;
 import voldemort.store.memory.InMemoryStorageEngine;
 import voldemort.versioning.Versioned;
+
+import java.util.*;
 
 /**
  * Created 18/04/2016
